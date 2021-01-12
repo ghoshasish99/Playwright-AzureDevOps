@@ -15,3 +15,10 @@ steps:
 - script: |
     npm run test
   displayName: 'execute tests'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'report/junitreport.xml'
+    testRunTitle: 'Test Report'
+  displayName: 'Publish Reports'  
