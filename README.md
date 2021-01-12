@@ -1,5 +1,5 @@
 
-![Playwright Test Execution](https://github.com/ghoshasish99/Playwright-Cucumber/workflows/Playwright%20Test%20Execution/badge.svg)
+[![Build Status](https://dev.azure.com/ContinuousTesting/Demo%20Project/_apis/build/status/Playwright-AzureDevOps?branchName=main)](https://dev.azure.com/ContinuousTesting/Demo%20Project/_build/latest?definitionId=1&branchName=main)
     
 # Playwright (execution on Moon) with CucumberJS
     
@@ -10,4 +10,4 @@ Playwright end-to-end test automation with CucumberJS
     	2. npm install cucumber --save-dev
         
     
-For more on Playwright click [here]()
+For more on Playwright click [here](https://playwright.dev/)
